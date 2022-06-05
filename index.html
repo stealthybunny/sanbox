@@ -4,11 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+    <title></title>
 </head>
 <body>
-  <h1>Headline!</h1>  
-  <p> Here you can see that I don't know what to write....</p>
-  <h1 align="center">Lorem Ipsum</h1>
+    <form action="">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div>
+                <label for="surname">Фамилия</label>
+                <input id="surname" type="text" name="surname" placeholder="Иванов">
+            </div>
+            <div>
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="name" placeholder="Иван">
+            </div>
+            <div>
+                <label for="secondname">Отчество</label>
+                <input id="secondname" type="text" name="secondname" placeholder="Иванович">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input id="email" type="text" name="email" placeholder="mail@mail.com">
+            </div>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Пол</legend>
+            <div>
+                <input type="radio" id="genderchoice1" name="gender" value="male">
+                <label for="genderchoice1">М</label>
+            
+                <input type="radio" id="genderchoice2" name="gender" value="female">
+                <label for="genderchoice2">Ж</label>
+            </div>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Хобби</legend>
+            <div>
+                <input type="checkbox" id="ch1" name="hobby" value="drowing">
+                <label for="ch1">Рисование</label>
+                <input type="checkbox" id="ch2" name="hobby" value="reading">
+                <label for="ch2">Чтение</label>
+                <input type="checkbox" id="ch3" name="hobby" value="knitting">
+                <label for="ch3">Вязание</label>
+                <input type="checkbox" id="ch4" name="hobby" value="cooking">
+                <label for="ch4">Кулинария</label>
+            </div>
+        </fieldset>
+    
+        <input type="submit">
+        <input type="reset">
+    </form>
 </body>
 </html>

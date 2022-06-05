@@ -1,0 +1,25 @@
+div{
+    margin-bottom: 20px;
+}
+label{
+    width: 80px;
+    display: inline-block;
+}
+/*
+fieldset{
+    width: 600px;
+}
+
+button {
+    border: 0; 
+    border-radius: 7px;
+    background-color: #048075;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Times New Roman;
+    cursor:
+}
+*/
