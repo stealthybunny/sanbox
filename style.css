@@ -1,25 +1,24 @@
-div{
-    margin-bottom: 20px;
+
+.central{
+    max-width: 600px;
+    margin: auto;
 }
-label{
-    width: 80px;
-    display: inline-block;
-}
-/*
-fieldset{
-    width: 600px;
 }
 
-button {
-    border: 0; 
-    border-radius: 7px;
-    background-color: #048075;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 300;
-    font-family: Times New Roman;
-    cursor:
+fieldset{
+    max-width: 600px;
+    margin: auto;
 }
-*/
+#button1{
+background-color: rgb(123, 231, 222);
+border-radius: 7px;
+width: 120px;
+height: 30px;
+}
+#button2{
+background-color: rgb(205, 134, 233);
+border-radius: 7px;
+width: 120px;
+height: 30px;
+}
+

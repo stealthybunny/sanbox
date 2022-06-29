@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 30px;
+  }
+  .header {
+    background-color: #3d3a3a;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    list-style: none;
+  }
+  .nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: rgb(190, 183, 81); 
+  }
+  .main {
+    margin-bottom: auto;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    background-color: #3d3a3a80;
+  }
+  .section-education,
+  .section-language {
+    border-bottom: 0;
+  }
+  .section-title {
+    margin-bottom: 20px;  
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #009b15;
+  }
+  .footer {
+    background-color: #829985;
+    padding: 20px;  
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
